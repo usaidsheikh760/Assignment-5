@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5.1</title>
+</head>
+<body>
+    <form>
+        <table style="background-color: slateblue;">
+            <tr>
+                <td>FIRST NAME</td>
+                <td><input type="text" name="first name" maxlength="30">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>LAST NAME</td>
+                <td><input type="text" name="last name" maxlength="30">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td><input type="date" name="date of birth"></td>
+            </tr>
+            <tr>
+                <td>EMAIL ID</td>
+                <td><input type="email" name="email id"></td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td><input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female</td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><textarea name="address" cols="20" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td><input type="text" name="city">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>PIN CODE</td>
+                <td><input type="password" maxlength="6" name="pin code">(6 digits number)</td>
+            </tr>
+            <tr>
+                <td>STATE</td>
+                <td><input type="text" name="state" maxlength="30">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>COUNTRY</td>
+                <td><input type="text" name="country"></td>
+            </tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td><input type="checkbox" name="hobbies" value="drawing">Drawing
+                    <input type="checkbox" name="hobbies" value="singing">Singing
+                    <input type="checkbox" name="hobbies" value="dancing">Dancing
+                    <input type="checkbox" name="hobbies" value="sketching">Sketching
+                    <br>
+                    <input type="checkbox" name="hobbies" value="others">Others
+                    <input type="text" name="others"></td>
+            </tr>
+            <tr>
+                <td>QUALIFICATIONS</td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <th>S.No</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <th>1.</th>
+                            <th>Class X</th>
+                            <td><input type="text" name="board" maxlength="10"></td>
+                            <td><input type="number" name="percentage"></td>
+                            <td><input type="number" name="year of passing"></td>
+                        </tr>
+                        <tr>
+                            <th>2.</th>
+                            <th>Class XII</th>
+                            <td><input type="text" name="board" maxlength="10"></td>
+                            <td><input type="number" name="percentage"></td>
+                            <td><input type="number" name="year of passing"></td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <th>Graduation</th>
+                            <td><input type="text" name="board" maxlength="10"></td>
+                            <td><input type="number" name="percentage"></td>
+                            <td><input type="number" name="year of passing"></td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <th>Masters</th>
+                            <td><input type="text" name="board" maxlength="10"></td>
+                            <td><input type="number" name="percentage"></td>
+                            <td><input type="number" name="year of passing"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td align="center">(10 char. max)</td>
+                            <td align="center">(upto 2 decimal)</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>COURSES <br>APPLIED FOR</td>
+                <td>
+                    <input type="radio" name="courses" value="bca">BCA
+                    <input type="radio" name="courses" value="b.com">B.Com
+                    <input type="radio" name="courses" value="b.sc">B.Sc
+                    <input type="radio" name="courses" value="b.a">B.A
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="middle">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
